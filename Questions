@@ -1,0 +1,470 @@
+Q. Capability Maturity Model
+A. Capability Maturity Model is used as a benchmark to measure the maturity of an organization's software process.
+
+Q. CMM Levels
+A. 
+	Initial - Process unpredictible, poorly controlled and reactive
+	Repeatable/Managed -  Process characterized for the projects and is often reactive
+	Defined -  Processes characterized for the organisation and is proactive
+	Quantitatively Managed - Process measured and controlled
+	Optimizing - Focus on process improvement
+
+Q. Software Quality
+A.  conformance to explicitly state functional and performance requirements, explicitly documented development standards, and inherent characteristics that are expected of all professionally developed software.
+
+Q. Software Quality Matrics
+A. Product Matrics, Process Matrics, Project Matrics
+
+Q. Software Quality Factor
+A. Product operation factors − Correctness, Reliability, Efficiency, Integrity, Usability.
+   Product revision factors − Maintainability, Flexibility, Testability.
+   Product transition factors − Portability, Reusability, Interoperability.
+
+Q. Six Sigma
+A. Six Sigma is a set of techniques and tools for process improvement.
+	- Define
+	- Measure
+	- Analyze
+	- Improve
+	- Control
+
+Q. Software Development Life Cycle (SDLC)
+A. Software Development Life Cycle is a process for planning, creating, testing, and deploying an information system.
+	- Analysis
+	- Define
+	- Design
+	- Code
+	- Test
+	- Deploy
+	- Maintenance
+
+Q. SDLC Models 
+A. 	URL : https://existek.com/blog/sdlc-models/
+	- Waterfall
+	- RAD (Rapid Application Development)
+	- Spiral
+	- V-Model
+	- Incremental
+	- Agile
+	- Iterative
+	- Bigbang
+
+Q. Humming Code
+A. Hamming code is a set of error-correction codes that can be used to detect and correct the errors that can occur when the data is moved or stored from the sender to the receiver.
+
+Q. Cyclic Redundancy
+A. A cyclic redundancy check (CRC) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data. 
+
+Q. Cyclomatic Complexity
+A. Cyclomatic complexity is a software metric used to indicate the complexity of a program.
+
+Q. Network Protocols
+A. 
+	- DHCP: Dynamic Host Configuration Protocol enables network administrators to automate the assignment of IP addresses in a network. 
+	- DNS: Domain Name System protocol helps in translating or mapping host names to IP addresses. 
+	- FTP: File Transfer Protocol enables file sharing between hosts, both local and remote, and runs on top of TCP.
+	- HTTP: Hyper Text Transfer Protocol used for distributed, collaborative, and hypermedia information systems.
+	- IMAP and IMAP4 : Internet Message Access Protocol is an email protocol that lets end users access and manipulate messages stored on a mail server from their email client as if they were present locally on their remote device. 
+	- POP and POP3: Post Office Protocol is also an email protocol using this protocol, the end user can download emails from the mail server to their own email client.
+	- SMTP: Simple Mail Transfer Protocol designed to transfer electronic mail reliably and efficiently.
+	- Telnet: Terminal emulation protocol application layer protocol that enables a user to communicate with a remote device. 
+	- SNMP: Simple Network Management Protocol used to manage nodes, like servers, workstations, routers, switches, etc., on an IP network.
+	- TCP: Transmission Control Protocol is transport layer protocol that provides a reliable stream delivery and virtual connection service to applications through the use of sequenced acknowledgement. TCP is a connection-oriented protocol.
+	- UDP: User Datagram Protocol is a connection-less transport layer protocol that provides a simple but unreliable message service. Unlike TCP, UDP adds no reliability, flow control, or error recovery functions.
+	- IPv4 is a network layer protocol that contains addressing and control information, which helps packets be routed in a network.
+	- ICMP: Internet Control Message Protocol is a network layer supporting protocol used by network devices to send error messages and operational information. 
+	- ARP: Address Resolution Protocol helps map IP addresses to physical machine addresses.
+
+Q. Dijkstra's Algorithm
+A. Dijkstra's algorithm allows us to find the shortest path between any two vertices of a graph.
+
+Q. IPv6
+A. IPv6 is the latest version of the Internet Protocol, a network layer protocol that possesses addressing and control information for enabling packets to be routed in the network. 
+
+Q. cryptography ? 
+A. It is a method of storing and transmitting data in a particular form so that only those for whom it is intended can read and process it.
+
+Q. Types of cryptography ?
+A. 
+	- Symmetric-key Cryptography: Both the sender and receiver share a single key.
+	- Public-Key Cryptography : Public-Key Cryptography two related keys (public and private key) are used.
+	- Hash Functions: No key is used in this algorithm. A fixed-length hash value is computed as per the plain text that makes it impossible for the contents of the plain text to be recovered.
+
+Q. What is MIS ?
+A. A management information system is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization. 
+
+Q. Ciphertext
+A. Ciphertext is encrypted text transformed from plaintext using an encryption algorithm.
+
+Q. Data encryption standard
+A. DES is a block cipher, and encrypts data in blocks of size of 64 bit each, means 64 bits of plain text goes as the input to DES, which produces 64 bits of cipher text. URL : https://www.geeksforgeeks.org/data-encryption-standard-des-set-1
+
+Q. Advanced Encryption Standard
+A. The AES algorithm (also known as the Rijndael algorithm) is a symmetrical block cipher algorithm that takes plain text in blocks of 128 bits and converts them to ciphertext using keys of 128, 192, and 256 bits. URL : https://www.educative.io/edpresso/what-is-the-aes-algorithm
+
+Q. Software Testing
+A. Software Testing is a  process, to evaluate the functionality of a software application with an intent to find whether the developed software met the specified requirements or not and to identify the defects to ensure that the product is defect-free in order to produce a quality product.
+
+
+Q. Types of Testing
+A. 
+	- Unit Testing : It focuses on the smallest unit of software design. In this, we test an individual unit or group of interrelated units. It is often done by the programmer by using sample input and observing its corresponding outputs. 
+		#  In a program we are checking if loop, method or function is working fine
+		#  Misunderstood or incorrect, arithmetic precedence
+		#  Incorrect initialization
+	-  Integration Testing : software modules are integrated logically and tested as a group. The purpose of this level of testing is to expose defects in the interaction between these software modules when they are integrated.
+		# Top-down Approach
+		# Bottom-up Approach 
+		# Sandwich Approach
+		# Big-Bang  
+	- Regression Testing : Every time a new module is added leads to changes in the program. This type of testing makes sure that the whole component works properly even after adding components to the complete program. 
+	- Smoke Testing : performed post software build to verify that the critical functionalities of software are working fine.
+	- Black Box : It is used for validation. In this we ignore internal working mechanism and focuse on what is the output?
+	- White Box : It is used for verification. In this we focus on internal mechanism i.e. how the output is achieved?
+	- Alpha Testing : This is a type of validation testing. It is a type of acceptance testing which is done before the product is released to customers. Performed internally within the organization
+	- Beta Testing : The beta test is conducted at one or more customer sites by the end-user of the software. This version is released for a limited number of users for testing in a real-time environment
+	- System Testing : performed on a complete integrated system to evaluate the compliance of the system with the corresponding requirements
+	- Performance Testing: Performance Testing is a type of software testing that is carried out to test the speed, scalability, stability and reliability of the software product or application.
+	- Load Testing: Load Testing is a type of software Testing which is carried out to determine the behavior of a system or software product under extreme load.
+	- Stress Testing: Stress Testing is a type of software testing performed to check the robustness of the system under the varying loads.
+	- Security Testing
+
+Q. Stubs and Drivers
+A. Stubs and Drivers are the dummy programs in Integration testing used to facilitate the software testing activity. These programs act as a substitutes for the missing models in the testing. They do not implement the entire programming logic of the software module but they simulate data communication with the calling module while testing.
+	- Stub: Is called by the Module under Test.
+	- Driver: Calls the Module to be tested.
+
+Q. Database Management System
+A. DBMS is a software for storing and retrieving users' data while considering appropriate security measures.
+
+Q. Database
+A. A database is an organized collection of structured information, or data, typically stored electronically in a computer system.
+
+Q. Relational DataBase Management System (RDBMS)
+A. A relational database is a digital database based on the relational model of data, as proposed by E. F. Codd in 1970.
+
+Q. Codd's Rule for Relational DBMS
+A. 
+	- Rule 1: Information rule - All information(including metadata) is to be represented as stored data in cells of tables. The rows and columns have to be strictly unordered.
+	- Rule 2: Guaranted Access - Each unique piece of data(atomic value) should be accesible by : Table Name + Primary Key(Row) + Attribute(column).
+	- Rule 3: Systematic treatment of NULL - Null has several meanings, it can mean missing data, not applicable or no value. It should be handled consistently. Expression on NULL must give null.
+	- Rule 4: Active Online Catalog - Database dictionary(catalog) is the structure description of the complete Database and it must be stored online. The Catalog must be governed by same rules as rest of the database. The same query language should be used on catalog as used to query database.
+	- Rule 5: Powerful and Well-Structured Language - One well structured language must be there to provide all manners of access to the data stored in the database. Example: SQL, etc. If the database allows access to the data without the use of this language, then that is a violation.
+	- Rule 6: View Updation Rule - All the view that are theoretically updatable should be updatable by the system as well.
+	- Rule 7: Relational Level Operation - There must be Insert, Delete, Update operations at each level of relations. Set operation like Union, Intersection and minus should also be supported.
+	- Rule 8: Physical Data Independence - The physical storage of data should not matter to the system. If say, some file supporting table is renamed or moved from one disk to another, it should not effect the application.
+	- Rule 9: Logical Data Independence - If there is change in the logical structure(table structures) of the database the user view of data should not change. Say, if a table is split into two tables, a new view should give result as the join of the two tables. This rule is most difficult to satisfy.
+	- Rule 10: Integrity Independence - The database should be able to enforce its own integrity rather than using other programs. Key and Check constraints, trigger etc, should be stored in Data Dictionary. This also make RDBMS independent of front-end.
+	- Rule 11: Distribution Independence - A database should work properly regardless of its distribution across a network. Even if a database is geographically distributed, with data stored in pieces, the end user should get an impression that it is stored at the same place. This lays the foundation of distributed database.
+	- Rule 12: Nonsubversion Rule - If low level access is allowed to a system it should not be able to subvert or bypass integrity rules to change the data. This can be achieved by some sort of looking or encryption.
+
+Q. What is Database Normalization ?
+A. Normalization is the process of minimizing redundancy from a relation or set of relations. Redundancy in relation may cause insertion, deletion and updation anomalies.
+	- 1st Normal Form : A relation is in 1NF, if every attribute in that relation is singled valued attribute.
+	- 2nd Normal Form : A relation is in 2NF, if it has No Partial Dependency, i.e., no non-prime attribute (attributes which are not part of any candidate key) is dependent on any proper subset of any candidate key of the table.
+	- 3rd Normal Form : A relation is in 3NF, if there is no transitive dependency for non-prime attributes as well as it is in second normal form.
+	- Boyce-Codd Normal Form (BCNF) : A relation is in BCNF iff in every non-trivial functional dependency X –> Y, X is a super key.
+
+Q. OSI Model
+A. The OSI Model (Open Systems Interconnection Model) is a conceptual framework used to describe the functions of a networking system. It consists of 7 Layers
+	- Physical Layer : Is concerned with electrically or optically transmitting raw unstructured data bits across the network
+	- Data Link Layer :  Directly connected nodes are used to perform node-to-node data transfer where data is packaged into frames. The data link layer also corrects errors that may have occurred at the physical layer.
+	- Network Layer :  Responsible for receiving frames from the data link layer, and delivering them to their intended destinations among based on the addresses contained inside the frame.
+	- Transport Layer : Manages the delivery and error checking of data packets. It regulates the size, sequencing, and ultimately the transfer of data between systems and hosts. One of the most common examples of the transport layer is TCP or the Transmission Control Protocol.
+	- Session Layer : The session layer controls the conversations between different computers. A session or connection between machines is set up, managed, and termined at layer 5. Session layer services also include authentication and reconnections.
+	- Presentation Layer : The presentation layer formats or translates data for the application layer based on the syntax or semantics that the application accepts. This layer can also handle the encryption and decryption required by the application layer.
+	- Application Layer : At this layer, both the end user and the application layer interact directly with the software application. This layer sees network services provided to end-user applications such as a web browser.
+
+Q. TCP/IP Model
+A.  Transmission Control Protocol/Internet Protocol is actual implementation of standard protocols. It consists of 5 layers
+	- Application Layer : It looks out for hardware addressing and the protocols present in this layer allows for the physical transmission of data
+	- Transport Layer : It defines the protocols which are responsible for logical transmission of data over the entire network.
+		# Internet Protocol
+		# ICMP
+		# ARP
+	- Internet Layer : It is responsible for end-to-end communication and error-free delivery of data.
+		# TCP
+		# UDP
+	- Network Access Layer
+		# HTTP and HTTPS
+		# SSH
+		# NTP
+
+Q. What is Deadlock
+A. In an operating system, a deadlock occurs when a process or thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource held by another waiting process. (URL : https://www.tutorialspoint.com/process-deadlocks-in-operating-system)
+	- Deadlock can arise if the following four conditions hold simultaneously (Necessary Conditions) also called Coffman Conditions
+		# Mutual Exclusion: One or more than one resource are non-shareable (Only one process can use at a time) 
+		# Hold and Wait: A process is holding at least one resource and waiting for resources. 
+		# No Preemption: A resource cannot be taken from a process unless the process releases the resource. 
+		# Circular Wait: A set of processes are waiting for each other in circular form. 
+	- There are three ways to handle deadlock 
+		# Deadlock prevention or avoidance: The idea is to not let the system into a deadlock state.  Banker’s algorithm (Which is in-turn a gift from Dijkstra) in order to avoid deadlock. 
+		# Deadlock detection and recovery: Let deadlock occur, then do preemption to handle it once occurred. 
+		# Ignore the problem altogether: If deadlock is very rare, then let it happen and reboot the system. This is the approach that both Windows and UNIX take. 
+
+Q. What is Startvation ?
+A. Starvation happens if a method is indefinitely delayed. This can emerge once a method needs a further resource for execution that isn’t assigned. Starvation is the problem that occurs when low priority processes get jammed for an unspecified time as the high priority processes keep executing.
+
+
+Q. What is Aging ?
+A. To avoid starvation, we use the concept of Aging. In Aging, after some fixed amount of time quantum, we increase the priority of the low priority processes. 
+
+Q. What is Kernal ?
+A. The kernel is a computer program considered as a central component or module of OS. It is responsible for handling, managing, and controlling all operations of computer systems and hardware. It also acts as an interface between user applications and hardware.
+
+Q. Guidelines for Indian Government Webstie (GIGW) Guideline
+A. 	URL : https://web.guidelines.gov.in/assets/gigw-manual.pdf
+	- The Homepage and all important entry pages of the website MUST display the ownership information, either in the header or footer.
+	- The Departments MUST have a Content Contribution, Moderation and Approval Policy (CMAP) stating the responsibility, authorisation and workflow details with regard to content publishing on the site.
+	- Web accessibility means that people with disabilities can also perceive, understand, navigate and interact with the Web
+	- All Indian Government websites MUST use ‘gov.in’ or ‘nic.in’ domain exclusively allotted and restricted to Government websites
+	- As directed by the Central Vigilance Commission (CVC) all Government and Public Sector Procurement/Tenders/Notifications issued by the Central and State Governments and other public bodies across India for goods, services and works MUST be made available/linked through the websites.
+	- All Indian Government websites MUST provide complete and transparent information about their recruitment policies for the benefit of those who would like to join the Government and serve the nation
+	- MUST have a ‘Contact Us’ page, linked from the Homepage and all relevant places in the website
+	- There should be a clear-cut policy for redressal (correction) of inaccurate information found on the website. 
+	- Prior to making downloadable material available for visitors, Government websites should check for viruses and clear them.
+	- Minimum Content on the homepage of a Department
+		# Department Name (alternatively, the name of the Project, Service etc. as applicable)
+		# State emblem of India/Logo (as applicable)
+		# About the Department (including its main activities and functions).
+		# Link to all the major modules/sections of the site.
+		# Link to all the citizen services offered by the Department.
+		# Link to the ‘Contact Us’ page of the website.
+		# Link to the “Feedback” page.
+		# Link to National Portal.
+		# Search/Site Map.
+		# Terms and Conditions of Use.
+	- Commercial banner advertisements should be avoided on Government websites. 
+	- Any information in text, visual or any other media which may offend/harm the National sentiments, religious communities as well as security and integrity of the Country MUST be avoided on the websites
+	- The content should be selected keeping the audience in mind, not from the Government’s perspective. 
+	- Government Departments MUST formulate a proper web Content Review Policy (CRP) depending upon the nature of their content and if possible, also publish the policy on their website.
+	- Time sensitive content which expires after a certain date content should be removed or archived as per the content archival policy (CAP).
+	- The language of complete web page MUST be indicated programmatically by the use of lang attribute. 
+	- It MUST be ensured that the documents/pages in multiple languages are updated simultaneously.
+	- While using national identity symbols like Flag, National Emblem etc., it MUST be ensured that the images are in a proper ratio and colour
+	- When using Hindi/Regional language fonts the page MUST be tested on major browsers for any inconsistency (loss of layout). Unicode character must be used
+	- Font properties should be such that the text MUST be readable both in electronic and print format and the content MUST print correctly on an A4 size paper.
+	- Proper contrast between text and background is essential for users who have low vision.
+	- A meaningful explanatory text equivalent MUST be specified for images and other non text content e.g. by using the ALT attribute. 
+	- It must be possible for a visitor to reach the Homepage from any other page in the website.
+	- MUST make the interface responsive to cater to a wide range of screen sizes.
+	- All functionality of the content MUST be operable through a keyboard interface 
+	- Government websites MUST provide metadata like, keywords, and description at least on Homepage and all important entry pages.
+	- It is a MUST that Indian Government websites are tested for multiple browsers and versions of browsers, operating systems, connection speeds, and screen resolutions to ensure access by all.
+	- Each website/application MUST undergo a security audit from empaneled agencies and clear the same, prior to hosting and after addition of new modules.
+	- Department MUST formulate a security policy to address various security issues related to the website.
+	- Web Hosting Service Provider MUST also use devices such as firewall and intrusion prevention systems to make the website more secure.
+	- The Web Hosting Service Provider MUST have a redundant server infrastructure to ensure fastest restoration of the website in the event of any unforeseen hardware/software failure
+	- The HSP MUST have a Disaster Recovery (DR) Centre in a geographically distant location and a well drafted DR plan for fast restoration of the services during any disaster.
+	- Web Hosting Service Provider MUST provide helpdesk and technical support to the department on 24 x 7 x 365 basis.
+	- Contingency Plan MUST be prepared in advance to handle any eventualities and restore the site in the shortest possible time.
+	- All the stationery items of the Department MUST display the URL of the web site.
+	- Departments MUST appoint a Web Information Manager (WIM) whose role shall be to ensure that there is a proper flow of content to the site and that content quality and user satisfaction issues are taken care of.
+	- Websites MUST have a website monitoring policy in place. 
+	- The Departments MUST have a well-defined Archival Policy with regard to such old documents
+
+Q. What is AI ?
+A. Branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. 
+
+Q. Types of AI
+A. URL : https://www.analyticsinsight.net/7-types-of-artificial-intelligence-propelling-the-technology-development/
+	- Reactive machines : Reactive machines are the most basic types of AI systems that perceive the world directly and act on what it sees.
+	- Limited Memory : Limited memory machines are ditto of reactive machines added with historical data which will help them take decisions.
+	- Theory of mind : Represents an advanced class of technology and exists only as a concept. This kind of AI requires a thorough understanding of people’s and thing’s feelings and behaviour within an environment.
+	- Self-aware : Self-aware AI is the exact thing that is portrayed in AI-movies. The critical AI robots that think on their own. 
+	- Artificial Narrow Intelligence : Known as ‘week AI’ is one of the most frequently used types of AI. Every AI machine we use and see today is from this field, which operates under a limited set of constraints. For example, voice recognition AI is used to predict people’s voice based on the dataset it is trained with.
+	- Artificial General Intelligence :  known as ‘strong AI’ allows a machine to apply knowledge and skills in different contexts. This more closely mirrors human intelligence by providing opportunities for autonomous learning and problem-solving.
+	- Artificial Super Intelligence :  is something more advanced than ‘strong AI’ which could end the human race. They will not only replicate the multi-faceted intelligence of human beings but will be exceedingly better at everything. 
+
+Q. Branches / Domains of AI
+A. 	
+	- Machine Learning :  use statistical methods to enable machines to improve with experience.
+		# Predictive Analytics
+		# Deep Learning :  imitates the way our brain works i.e. it learns from experiences. It uses the concepts of neural networks to solve complex problems.
+	- Speech
+		# Text to Speech
+		# Speech to Text
+	- Image Recognition
+		# Image Recognition
+		# Machine Vision
+	- Natural Language Processing :  method that analyses natural human language to derive useful insights in order to solve problems.
+		# Classification
+		# Translation
+		# Data Extraction
+	- Expert System : has expert-level knowledge about a specific area of data and utilizes the information to react appropriately.
+	- Planning and Optimization
+	- Robotics
+	- Neural Network :  set of algorithms and techniques, modeled in accordance with the human brain.
+		# Feedforward
+		# Convolutional
+		# Recurrent
+
+Q. Examples of AI
+A. 
+	- Chatbots
+	- Facial recognition
+	- Image tagging
+	- Natural language processing
+	- Sales prediction
+	- Self-driving cars
+	- Sentiment analysis
+
+Q. Types of Machine Learning
+A. 
+	- Supervised Learning
+	- Unsupervised Learning
+	- Reinforcement Learning
+
+Q. Steps of Machine Learning
+A. 
+	- Data Collection
+	- Data Cleaning
+	- Emploration and Analysis
+	- Building Model
+	- Optimization
+	- Deployment
+
+Q. What are the tools of AI?
+A. 
+	- Scikit Learn
+	- Keras
+	- TensorFlow
+	- PyTorch
+	- Theano
+	- Caffe
+	- MxNet
+	- Auto ML
+	- CNTK
+	- OpenNN
+	- H20: Open Source AI Platform
+	- Google ML Kit
+
+Q. Algorithms used in Machine Learning?
+A.  
+	- supervised learning : Algorithm learns on the labeled dataset, where the response is known. 
+		# Linear Regression
+		# Logistic Regression
+		# Decision Trees
+		# K-Nearest Neighbors (KNN)
+		# Naive Bayes
+		# Support Vector Machines
+		# Ensemble Learning (Random Forest, Bagging, Boosting)
+	 - unsupervised learning : model infers the hidden structure, pattern on the unlabeled data
+		# K-means Clustering
+		# Agglomerative (Hierarchical) clustering
+		# Spectral Clustering (DBSCAN)
+		# Association Analysis (Market Basket Analysis)
+		# Principal Component Analysis
+
+Q. What is an agent in AI?
+A. In reinforcement learning, a domain of artificial intelligence uses agents that senses or perceives the environment by sensors that allow them to understand the settings.
+
+Q. What is a Minimax Algorithm? 
+A. Minimax algorithm is a recursive and backtracking algorithm. It is used for decision making in game theory.
+
+Q. What is OWASP ? 
+A. The Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+
+Q. OWASP Top 10 Vulnerabilities and Mitigation Techniques
+A. 
+	- Injection : A code injection happens when an attacker sends invalid data to the web application with the intention to make it do something that the application was not designed/programmed to do.
+		# Prevention : 	
+			1. Prepared Statements
+			2. Use positive or “allowlist” server-side input validation.
+			3. For any residual dynamic queries, escape special characters using the specific escape syntax for that interpreter.
+			4. Use LIMIT and other SQL controls within queries to prevent mass disclosure of records in case of SQL injection.
+	- Broken authentication :  can allow an attacker to use manual and/or automatic methods to try to gain control over any account they want in a system – or even worse – to gain complete control over the system.
+		# Prevention :
+			1. Implement multi-factor authentication
+			2. Do not ship or deploy with any default credentials
+			3. Implement weak-password checks
+			4. Align password length, complexity and rotation policies
+			5. Use a server-side, secure, built-in session manager that generates a new random session ID.
+	- Sensitive data exposure
+		# Prevention :
+			1. Don’t store sensitive data unnecessarily.
+			2. Make sure to encrypt all sensitive data at rest.
+			3. Disable caching for responses that contain sensitive data.
+			4. Store passwords using strong adaptive and salted hashing function
+	- XML external entities (XXE) : This attack occurs when XML input containing a reference to an external entity is processed by a weakly configured XML parser.
+		# Prevention :
+			1. Whenever possible, use less complex data formats ,such as JSON
+			2. Patch or upgrade all XML processors and libraries
+			3. Implement positive (“allowlisting”) server-side input validation, filtering, or sanitization to prevent hostile data within XML documents, headers, or nodes.
+	- Broken access control
+		# Prevention :
+			1. With the exception of public resources, deny by default.
+			2. Disable web server directory listing and ensure file metadata (e.g. .git) and backup files are not present within web roots.
+			3. Log access control failures, alert admins when appropriate.
+			4. Rate limit API and controller access to minimize the harm from automated attack tooling.
+			5. JWT tokens should be invalidated on the server after logout
+	- Security misconfigurations
+		# Unpatched flaws, Default configurations, Unused pages, Unprotected files and directories, Unnecessary services
+		# Prevention : 
+			1. A repeatable hardening process
+			2. Intall minimal platform without any unnecessary features, components, documentation, and samples. 
+			3. Sending security directives to clients, e.g. Security Headers.
+	- Cross site scripting (XSS) : XSS attacks consist of injecting malicious client-side scripts into a website and using the website as a propagation method.
+		# Prevention :
+			1. Using frameworks that automatically escape XSS by design
+			2. Escaping untrusted HTTP request data
+			3. Applying context-sensitive encoding 
+			4. Enabling a content security policy (CSP) is a defense-in-depth mitigating control against XSS. 
+	- Insecure deserialization
+		# Prevention : 
+			1. Implementing integrity checks such as digital signatures
+			2. Isolating and running code that deserializes in low privilege environments when possible.
+			3. Logging deserialization exceptions and failures
+			4. Restricting or monitoring incoming and outgoing network connectivity from containers or servers that deserialize.
+			5. Monitoring deserialization, alerting if a user deserializes constantly.
+	- Using components with known vulnerabilities
+		# Prevention : 
+			1. Remove all unnecessary dependencies.
+			2. Monitor sources like Common Vulnerabilities and Disclosures (CVE) and National Vulnerability Database (NVD) for vulnerabilities in the components.
+			3. Obtain components only from official sources.
+			4. Get rid of components not actively maintained.
+			5. Use virtual patching with the help of a Website Application Firewall.
+	- Insufficient logging and monitoring
+		# Prevention :
+			1. Remote monitoring
+			2. Website blocklist monitoring
+			3. Server-side monitoring
+			4. DNS monitoring
+			5. Uptime monitoring
+
+Q. What is RAID ?
+A. Redundant Redundant Array of Inexpensive Disks is a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for the purposes of data redundancy, performance improvement, or both.
+	- Level 0 : Stripping
+	- Level 1 : mirroring
+	- RAID 5 : striping with parity
+	- RAID 6 : striping with double parity
+	- RAID 10 : combining mirroring and striping
+
+Q. What is Proxy Server ? 
+A. It’s an intermediary server separating end-user clients from the destinations that they browse. Proxy servers provide varying levels of functionality, security, and privacy depending on your use case, needs, or company policy.
+
+Q. What is Reverse Proxy ?
+A. A reverse proxy provides an additional level of abstraction and control to ensure the smooth flow of network traffic between clients and servers.
+	- Load Balancing
+	- Web Acceleration
+	- Security and anonymity
+
+Q. Proxy vs Reverse Proxy ?
+A. - Proxy, is a server that routes traffic between client(s) and another system, usually external to the network. By doing so, it can regulate traffic according to preset policies, convert and mask client IP addresses, enforce security protocols, and block unknown traffic.
+   - A reverse proxy is a server that accepts a request from a client, forwards the request to another one of many other servers,
+
+Q. What is VPN ?
+A. A virtual private network (VPN) gives you online privacy and anonymity by creating a private network from a public internet connection. 
+
+Q. WHat is JSON ?
+A. 	- JSON stands for JavaScript Object Notation 
+	- Is a lightweight format for storing and transporting data
+	- Often used when data is sent from a server to a web page
+	- JSON is "self-describing" and easy to understand
+
+Q. What is CSS ?
+A. Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+Q. What is JavaScript ?
+A. 	- JavaScript can update and change both HTML and CSS.
+	- JavaScript can calculate, manipulate and validate data.

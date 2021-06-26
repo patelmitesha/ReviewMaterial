@@ -431,6 +431,9 @@ A.
 			3. Server-side monitoring
 			4. DNS monitoring
 			5. Uptime monitoring
+	- Cross-site request forgery (CSRF) : attack forces a logged-on victim's browser to send a forged HTTP request, including the victim's session cookie and any other automatically included authentication information, to a vulnerable web application.
+		# Prevention
+			1. Implement mechanisms like CAPTCHA, Re-Authentication, and Unique Request Tokens (CSRF Tokens).
 
 Q. What is RAID ?
 A. Redundant Redundant Array of Inexpensive Disks is a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for the purposes of data redundancy, performance improvement, or both.
@@ -468,3 +471,89 @@ A. Cascading Style Sheets (CSS) is used to format the layout of a webpage.
 Q. What is JavaScript ?
 A. 	- JavaScript can update and change both HTML and CSS.
 	- JavaScript can calculate, manipulate and validate data.
+
+Q. What is Quantum Computing ?
+A. Quantum computing is the exploitation of collective properties of quantum states, such as superposition and entanglement, to perform computation. 
+
+Q. What is Grid Computing ?
+A. Grid Computing can be defined as a network of computers working together to perform a task that would rather be difficult for a single machine. 
+
+Q. What is Cloud Computing ?
+A. cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.
+	- Advantages
+		# Cost
+		# Global Scale
+		# Performance
+		# Security
+		# Reliability
+		# Spped
+		# Productivity
+	- Types
+		# Public
+		# Private
+		# Hybrid
+	- Cloud Services
+		# Ifrastructure as Service (Iaas) : servers and virtual machines (VMs), storage, networks 
+		# Plateform as Service (Paas) : demand environment for developing, testing, delivering and managing software applications (like wordpress, db servers, tomcat etc)
+		# Software as a service (SaaS) : Software as a service is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. (ex. Google Photos, OTT plateforms )
+		
+Q. What is cluster computing ?
+A. connected computers that work together so that they act as a single entity. (URL : https://www.docker.com/resources/what-container)
+	- Types
+		# High Availability cluster
+		# Load Balancing cluster
+		# High Performance cluster
+
+Q. What is a botnet?
+A Botnet is a network of devices that has been infected with malicious software, such as a virus. Attackers can control a botnet as a group without the owner’s knowledge with the goal of increasing the magnitude of their attacks. Often, a botnet is used to overwhelm systems in a distributed-denial-of-service attack (DDoS) attack.
+
+Q. What is Fishing Attack ?
+A. Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, dupes a victim into opening an email, instant message, or text message. 
+
+Q. Types of Cyber Attacks?
+A.	- Phishing : practice of sending fraudulent communications that appear to come from a reputable source
+		# Email phishing
+		# HTTPS phishing - Send link of fake website
+		# Spear phishing - Although spear phishing uses email, they target specific individuals within the organization using real names, job functions, or work telephone numbers to make the recipient think the email is from someone else inside the organization.
+		# Whaling/CEO fraud -  Malicious actors use social media or the corporate website to find the name of the organization’s CEO or another senior leadership member. They then impersonate that person using a similar email address. The email might ask for a money transfer or request that the recipient review a document.
+		# Vishing : Voice phishing, or “vishing,” happens when a cybercriminal calls a phone number and creates a heightened sense of urgency that makes a person take an action against their best interests. 
+		# Smishing : Smishing is sending texts that request a person take an action. Often, the text will include a link that, when clicked, installs malware on the user’s device.
+		# Angler phishing : Angler phishing is when a cybercriminal uses notifications or direct messaging features in a social media application to entice someone into taking action.
+		# Pharming :  The malicious actors hijack a Domain Name Server (DNS), the server that translates URLs from natural language into IP addresses. Then, when a user types in the website address, the DNS server redirects the user to a malicious website’s IP address that might look real.
+		# Pop-up phishing : . Malicious actors can place malicious code in the small notification boxes, called pop-ups, that show up when people go to websites. 
+		# Clone phishing :  Malicious actors know most of the business applications that require people to click links as part of their daily activities. They will often engage in research to see what types of services an organization uses regularly then send targeted emails that appear to come from these services.
+		# Evil twin :  is a phishing attack uses a fake WiFi hotspot, often making it look legitimate, that might intercept data during transfer. . If someone uses the fake hotspot, the malicious actors can engage in man-in-the-middle or eavesdropping attacks.
+		# Watering hole phishing : malicious actors doing research around the websites a company’s employees visit often, then infecting the IP address with malicious code or downloads. These can be websites that provide industry news or third-party vendors’ websites. When the user visits the website, they download the malicious code.
+	- Malware : Malicious software can be described as unwanted software that is installed in your system without your consent.
+		# Macro viruses : These viruses infect applications such as Microsoft Word or Excel. 
+		# File infectors : File infector viruses usually attach themselves to executable code, such as .exe files. The virus is installed when the code is loaded.
+		# System or boot : record infectors — A boot-record virus attaches to the master boot record on hard disks.
+		# Polymorphic viruses : These viruses conceal themselves through varying cycles of encryption and decryption.
+		# Stealth viruses : Stealth viruses take over system functions to conceal themselves
+		# Trojans : A Trojan or a Trojan horse is a program that hides in a useful program and usually has a malicious function. A major difference between viruses and Trojans is that Trojans do not self-replicate.
+		# Logic bombs : A logic bomb is a type of malicious software that is appended to an application and is triggered by a specific occurrence, such as a logical condition or a specific date and time.
+		# Worms : Worms differ from viruses in that they do not attach to a host file, but are self-contained programs that propagate across networks and computers. 
+		# Droppers : A dropper is a program used to install viruses on computers. In many instances, the dropper is not infected with malicious code and, therefore might not be detected by virus-scanning software.
+		# Ransomware : Ransomware is a type of malware that blocks access to the victim’s data and threatens to publish or delete it unless a ransom is paid. 
+		# Adware : Adware is a software application used by companies for marketing purposes; advertising banners are displayed while any program is running.
+		# spyware : Covertly obtains information by transmitting data from the hard drive
+	- Man-in-the-middle attack : also known as eavesdropping attacks, occur when attackers insert themselves into a two-party transaction. Once the attackers interrupt the traffic, they can filter, alter or steal data.
+		# Session hijacking : attacker hijacks a session between a trusted client and network server. The attacking computer substitutes its IP address for the trusted client while the server continues the session, believing it is communicating with the client. 
+		# IP Spoofing : IP spoofing is used by an attacker to convince a system that it is communicating with a known, trusted entity and provide the attacker with access to the system. 
+		# Replay : A replay attack occurs when an attacker intercepts and saves old messages and then tries to send them later, impersonating one of the participants. 
+	- Denial-of-service attack (DoS) : A denial-of-service attack floods systems, servers, or networks with traffic to exhaust resources and bandwidth.
+		# TCP SYN flood attack : An attacker exploits the use of the buffer space during a TCP session initialization handshake. The attacker’s device floods the target system’s small in-process queue with connection requests, but it does not sends acknowlegement signal. This causes the target system to time out while waiting for the response from the attacker’s device, which makes the system crash or become unusable when the connection queue fills up.	
+		# Teardrop attack : This attack causes the length and fragmentation offset fields in sequential Internet Protocol (IP) packets to overlap one another on the attacked host; the attacked system attempts to reconstruct packets during the process but fails. The target system then becomes confused and crashes.
+		# Smurf attack : This attack involves using IP spoofing and the ICMP to saturate a target network with traffic. This attack method uses ICMP echo requests targeted at broadcast IP addresses. This process is repeatable, and can be automated to generate huge amounts of network congestion.
+		# Ping of death attack : This type of attack uses IP packets to ‘ping a target system with an IP size over the maximum of 65,535 bytes. IP packets of this size are not allowed, so attacker fragments the IP packet. Once the target system reassembles the packet, it can experience buffer overflows and other crashes.
+		# Botnets - Botnets are the millions of systems infected with malware under hacker control in order to carry out DDoS attacks. These bots or zombie systems are used to carry out attacks against the target systems, often overwhelming the target system’s bandwidth and processing capabilities.
+	- Distributed Denial-of-service attack :  DDoS attack is also an attack on system’s resources, but it is launched from a large number of other host machines that are infected by malicious software controlled by the attacker.
+	- SQL injection : Injection occurs when an attacker inserts malicious code into a server that uses SQL and forces the server to reveal information it normally would not.
+	- Zero-day exploit : A zero-day exploit hits after a network vulnerability is announced but before a patch or solution is implemented.
+	- DNS Tunneling - 
+	- Cross-site scripting (XSS) attack : XSS attacks use third-party web resources to run scripts in the victim’s web browser or scriptable application.
+	- Drive-by attack : 
+	- Password attack : 
+		# Brute-force : password guessing means using a random approach by trying different passwords
+		# dictionary attack : A dictionary of common passwords is used to attempt to gain access to a user’s computer and network. Attacker injects a payload with malicious JavaScript into a website’s database.
+	

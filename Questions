@@ -16,9 +16,9 @@ Q. Software Quality Matrics
 A. Product Matrics, Process Matrics, Project Matrics
 
 Q. Software Quality Factor
-A. Product operation factors − Correctness, Reliability, Efficiency, Integrity, Usability.
-   Product revision factors − Maintainability, Flexibility, Testability.
-   Product transition factors − Portability, Reusability, Interoperability.
+A. Product operation factors - Correctness, Reliability, Efficiency, Integrity, Usability.
+   Product revision factors - Maintainability, Flexibility, Testability.
+   Product transition factors - Portability, Reusability, Interoperability.
 
 Q. Six Sigma
 A. Six Sigma is a set of techniques and tools for process improvement.
@@ -557,3 +557,227 @@ A.	- Phishing : practice of sending fraudulent communications that appear to com
 		# Brute-force : password guessing means using a random approach by trying different passwords
 		# dictionary attack : A dictionary of common passwords is used to attempt to gain access to a user’s computer and network. Attacker injects a payload with malicious JavaScript into a website’s database.
 	
+Q. What is e-Governance
+A. Integration of Information and Communication Technology (ICT) in all the processes, with the aim of enhancing government ability to address the needs of the general public. The basic purpose of e-governance is to simplify processes for all, i.e. government, citizens, businesses, etc. at National, State and local levels.
+	Types :
+	- G2G (Government to Government)
+	- G2C (Government to Citizen)
+	- G2B (Government to Business)
+	- G2E (Government to Employees)
+
+Q. ISPD
+A. ISRO Software Process Document is framework for developing software and ensuring its quality through the implementation of a software standard IEEE-12207. ISPD v2 is released in Nov-2016 which is inline with IEEE 12207 updated on 2015 standard. 
+	- Four New S/W categories added
+		# Spacecraft Operations S/W
+		# System S/W
+		# Mobile Application
+		# FPGA Design
+	- Six New Process introduced
+		# Risk / Measure / Decision / Information / Knowledge Management
+	- Guidelines Added
+		# Web, Mobile, Team Formation, SDLC Models, SQA Practices, Metrics
+	- SW Conformance
+		# Full or Tailoured
+
+Q. ISPD v1 vs v2
+A. 	- V1 Processes  :
+		# Primary Lice Cycle Processes
+			1 Acquisition
+			2 Supply
+			3 Development
+			4 Operation
+			5 Maintenance
+		# Supporting Life Cycle Processes
+			1 Documentation
+			2 Quality Assurance
+			3 Configuration Management
+			4 Verification
+			5 Validation
+			6 Joint Review
+			7 Audit
+			8 Problem Solution
+		# Organisation Life Cycle Processes
+			1 Management
+			2 Infrastructure
+			3 Improvement
+			4 Training
+	- V2 Processes
+		# Agreement Process
+			1 Aquisition Process
+			2 Supply Process
+		# Organisational Project-Enabling Processes
+			1 Life Cycle Management Process
+			2 Infrastructure Management Process
+			3 Portfolio Management Process
+			4 Human Resource Management Process
+			5 Quality Management Process
+			6 Knowledge Management Process
+		# Technical Management Process
+			1 Project Planning Process
+			2 Project Assessment and Control Process
+			3 Decision Management Process
+			4 Risk Management Process
+			5 Configuration Management Process
+			6 Information Management Process
+			7 Measurement Process
+			8 Quality Assurance Process
+		# Technical Processes
+			1 Business or Mission Analysis Process
+			2 Stakeholder Need and Requirement Definition
+			3 System / Software Requirements Definition Process
+			4 Architecture Definition Process
+			5 Design Definition Process
+			6 System Ananlysis Process
+			7 Implementation Process
+			8 Integration Process
+			9 Verification Process
+			10 Trasition Process
+			11 Validation Process
+			12 Transition Process
+			13 Operation Process
+			14 Maintenance Process
+			15 Disposal Process
+
+Q. What is Standardisation Testing and Quality Certification (STQC)
+A. Attached with office of the Ministry of Electronics and Information Technology, provides quality assurance services in the area of Electronics and IT through countrywide network of laboratories and centres.  The services include Testing, Calibration, IT & e-Governance, Training and Certification having National / International accreditation and recognitions in the area of testing and calibration.
+
+Q. What is ICERT or CERT-IN?
+A. CERT-In is the national nodal agency for responding to computer security incidents as and when they occur.
+	- Collection, analysis and dissemination of information on cyber incidents.
+	- Forecast and alerts of cyber security incidents
+	- Emergency measures for handling cyber security incidents
+	- Coordination of cyber incident response activities.
+	- Issue guidelines, advisories, vulnerability notes and whitepapers relating to information security practices, procedures, prevention, response and reporting of cyber incidents.
+	
+Q. Major Govt. of India setup for IT
+A. 	- National Informatics Centre (NIC) of the Ministry of Electronics and Information Technology is providing network backbone and e-Governance support to Central Government, State Governments, UT Administrations, Districts and other Government bodies.  NIC assists in implementing Information Technology Projects, in close collaboration with Central and State Governments,
+	- Standardisation Testing and Quality Certification (STQC) Directorate is an attached office of the Ministry of Electronics and Information Technology, Government of India, provides quality assurance services in the area of Electronics and IT through countrywide network of laboratories and centres. The services include Testing, Calibration, IT & e-Governance, Training and Certification to public and private organizations.
+	- Controller of Certifying Authorities (CCA)
+	- CERT-In is the national nodal agency for responding to computer security incidents as and when they occur.
+	- Digital India Corporation (DIC) leads and guides in realizing the vision, objectives and goals of the Digital India program. 
+	- National Informatics Centre Services Inc. (NICSI) provides total IT solutions to the Government organizations
+	- National Internet Exchange of India(NIXI) was set up for peering of ISPs and other entities like content players, CDNs etc .
+	- Centre for Development of Advanced Computing(C-DAC) is a premier research and development Society of DeitY.  carry out cutting edge R&D and innovation activities ranging from conceptualization to field deployment, in a number of areas within the space of electronics, information and communication technologies having national and international importance. 
+	- Centre for Materials for Electronics Technology (C-MET), development of viable technologies in the area of materials mainly for electronics.
+	- Education & Research in Computer Networking (ERNET) having one of the largest nationwide terrestrial and satellite network with 5 points of presence located at the premier academic and research institutions in major cities of the country.
+	- National Institute of Electronics and Information Technology (NIELIT)  y engaged in Capacity Building and Skill Development in the areas of Information Technology (IT); Electronics; Communication Technologies; Hardware; Cyber Law; Cyber Security; Geographic Information System (GIS); Cloud Computing; Electronics System Design & Manufacturing (ESDM); e-Waste; Internet of Things (IoT); Big Data; Block Chain; Data Analytics; e-Governance and related verticals.
+	- SAMEER is a premier R & D Laboratory dedicated to research, design and development in the field of RF and Microwave systems. 
+	- Software Technology Parks of India (STPI) objective has been the promotion of software exports from the country. 
+
+Q. What will you do in case of any cyber attack ?
+A. 	- Remove the computer / server from Network
+	- Inform Authorities including Head, Information Security Officer, Cert-IN Team and Chief Information Security Officer at Headquarter
+	- Root Cause Analysis / Forensic Investigation
+		# Log Analysis of OS, Web Application, DB
+		# Check if data is compromised
+		# Check for any source code changes
+		# Any unneccesary Port, Server has remained started due to which incident has happened
+	- Inform Authorities about the issue and resolution. 
+	- If authority permit, Apply patch on backup system, operationalized the backup as operational. Leave the operational server for further investigation.
+	- Inform Authorities that, you have operationalized the system
+	- If needed, ask Cert-IN team to test the setup
+
+Q. What is Angular
+A. A component-based framework for building scalable web applications. A collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, client-server communication, and more. A suite of developer tools to help you develop, build, test, and update your code .
+
+Q. Latest Browsers and versions
+A. Chrome 78, Firefox 89
+
+Q. Android Stack
+A. 	- Linux Kernel
+		# Security
+		# Memory Management
+		# Process Management
+		# Network Stack
+		# Driver Model
+	- Libraries
+		# Android Runtime
+		# OpenGL
+		# WebKit
+		# Media Framework	
+		# Secure Socket Layer
+	- Android Runtime
+	- Application Framework
+		# Activity Manager
+		# Telephony Manager
+		# View System
+		# Location Manager
+	- Applications
+
+Q. iOS latest version
+A. 14.6
+
+Q. iOS language
+A. iOS software is written in the Swift programming.
+
+Q. What is REST API?
+A. Representational state transfer (REST)  having 6 guiding constraints which must be satisfied if an interface needs to be referred as RESTful. First defined in 2000 by computer scientist Dr. Roy Fielding in his doctoral dissertation.
+	- Client-server
+	- Stateless
+	- Cacheable
+	- Uniform Interface
+	- Layered System
+	- Code on Demant (Optional)
+
+Q. What is RSS?
+A. Really Simple Syndication (RSS) is a web feed that allows users and applications to access updates to websites in a standardized, computer-readable format.
+
+Q. Important Network Ports
+A. 	- 20 : File Transfer Protocol (FTP) Data Transfer
+	- 21 : File Transfer Protocol (FTP) Command Control
+	- 22 : Secure Shell (SSH)
+	- 23 : Telnet Remote login service, unencrypted text messages
+	- 25 : Simple Mail Transfer Protocol (SMTP) E-mail Routing
+	- 53 : Domain Name System (DNS) service
+	- 80 : Hypertext Transfer Protocol (HTTP) used in World Wide Web
+	- 110 : Post Office Protocol (POP3) used by e-mail clients to retrieve e-mail from a server
+	- 119 : Network News Transfer Protocol (NNTP)
+	- 123 : Network Time Protocol (NTP)
+	- 143 : Internet Message Access Protocol (IMAP) Management of Digital Mail
+	- 161 : Simple Network Management Protocol (SNMP)
+	- 194 : Internet Relay Chat (IRC)
+	- 443 : HTTP Secure (HTTPS) HTTP over TLS/SSL
+
+Q. What is class?
+A. A class is a blueprint that defines the variables and the methods common to all objects of a certain kind.
+
+Q. What is Objects ?
+A. An object is a collection of variables, values and related methods.
+
+Q. What is polymorphism ?
+A. The word polymorphism means having many forms. polymorphism means the ability of a message to be displayed in more than one form.
+	- Compile Time
+		# Function Overloading
+		# Operator Overloading
+	- Run Time
+		# Virtual Function
+
+Q. What is inheritance
+A. The capability of a class to derive properties and characteristics from another class is called Inheritance. 
+	- Types
+		# Single Inheritance
+		# Multiple Inheritance
+		# Multilevel Inheritance
+		# Hierarchical Inheritance
+		# Hybrid Inheritance
+
+Q. What is Abstract Class ?
+A. if a class has at least one pure virtual function, then the class becomes abstract.  an instance of an abstract class cannot be created, we can have references to abstract class type though.
+	- Example : 	
+		abstract class Base {
+		    abstract void fun();
+		}
+		class Derived extends Base {
+		    void fun()
+		    {
+		        System.out.println("Derived fun() called");
+		    }
+		}
+
+Q. Extends vs Implements
+A. 	- Extends keyword is used to indicate that the class which is being defined is derived from the base class using inheritance. So basically, extends keyword is used to extend the functionality of the parent class to the subclass. 
+	- Implements keyword is used to implement an interface. An interface is a special type of class which implements a complete abstraction and only contains abstract methods.
+
+Q. What is Garbage Collector in JAVA?
+A. garbage collection (GC) in the Java virtual machine (JVM) to automatically determine what memory is no longer being used by a Java application and to recycle this memory for other uses. 
+

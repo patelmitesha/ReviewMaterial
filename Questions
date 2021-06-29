@@ -781,3 +781,31 @@ A. 	- Extends keyword is used to indicate that the class which is being defined 
 Q. What is Garbage Collector in JAVA?
 A. garbage collection (GC) in the Java virtual machine (JVM) to automatically determine what memory is no longer being used by a Java application and to recycle this memory for other uses. 
 
+Q. What is DMZ ?
+A. A demilitarized zone (DMZ) is a perimeter network that protects an organization’s internal local-area network (LAN) from untrusted traffic. 
+
+Q. Types of Information Systems
+A. 	- Transaction Processing Systems 
+		# Transaction Processing System are information system that processes data resulting from the occurrences of business transactions
+		# Their objectives are to provide transaction in order to update records and generate reports i.e to perform store keeping function
+		# The transaction is performed in two ways: Batching processing and Online transaction processing.
+		# Example: Bill system, payroll system, Stock control system.
+	- Management Information Systems : 
+		# Management Information System is designed to take relatively raw data available through a Transaction Processing System and convert them into a summarized and aggregated form for the manager, usually in a report format. It reports tending to be used by middle management and operational supervisors.
+		# Many different types of report are produced in MIS. Some of the reports are a summary report, on-demand report, ad-hoc reports and an exception report.
+		# Example: Sales management systems, Human resource management system.
+	- Decision Support Systems :  
+		# Decision Support System is an interactive information system that provides information, models and data manipulation tools to help in making the decision in a semi-structured and unstructured situation.
+		# Decision Support System comprises tools and techniques to help in gathering relevant information and analyze the options and alternatives, the end user is more involved in creating DSS than an MIS.
+		# Example: Financial planning systems, Bank loan management systems.
+	-  Experts System :  
+		# Experts systems include expertise in order to aid managers in diagnosing problems or in problem-solving. These systems are based on the principles of artificial intelligence research.
+		# Experts Systems is a knowledge-based information system. It uses its knowledge about a specify are to act as an expert consultant to users.
+		# Knowledgebase and software modules are the components of an expert system. These modules perform inference on the knowledge and offer answers to a user’s question
+
+Q. What is ERP ?
+A. Enterprise Resource Planning refers to software and systems used to plan and manage all the core supply chain, manufacturing, services, financial and other processes of an organization.
+
+Q. Test Plan ?
+A. A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product.
+
